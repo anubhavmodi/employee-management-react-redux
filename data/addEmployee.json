@@ -1,0 +1,14 @@
+{
+    "status": "success",
+    "data":{
+      "id": 60,
+      "clientId": "L078445",
+      "vendorId": "603853",
+      "name": "Anubhav Modi",
+      "projectManager": "George Martin",
+      "projectCode": "AB12345",
+      "start_date": 1423591316,
+      "end_date": 1424196116,
+      "active": true
+    }
+}

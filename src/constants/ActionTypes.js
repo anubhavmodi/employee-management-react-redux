@@ -1,0 +1,22 @@
+//Actions const
+export const GET_EMPLOYEE_DATA = 'GET_EMPLOYEE_DATA';
+export const GET_PROJECT_DATA = 'GET_PROJECT_DATA';
+export const GET_PROJECT_DETAIL = 'GET_PROJECT_DETAIL';
+
+//Filter
+export const VIEW_ALL = 'VIEW_ALL';
+export const VIEW_ACTIVE = 'VIEW_ACTIVE';
+export const VIEW_INACTIVE = 'VIEW_INACTIVE';
+
+//Sort
+export const SORT_BY_DATE = 'SORT_BY_DATE';
+export const SORT_BY_NAME = 'SORT_BY_NAME';
+export const SORT_BY_CLIENT_ID = 'SORT_BY_CLIENT_ID';
+export const SORT_BY_VENDOR_ID = 'SORT_BY_VENDOR_ID';
+export const SORT_BY_PROJECT_MANAGER = 'SORT_BY_PROJECT_MANAGER';
+export const SORT_BY_ACTIVE = 'SORT_BY_ACTIVE';
+export const SORT_BY_STEPS = 'SORT_BY_STEPS';
+export const UPDATE_EMPLOYEE_DATA = 'UPDATE_EMPLOYEE_DATA';
+export const ADD_PROJECT_DATA = 'ADD_PROJECT_DATA';
+export const ADD_EMPLOYEE_DATA = 'ADD_EMPLOYEE_DATA';
+export const SEARCH_EMPLOYEE_BY_ID = 'SEARCH_EMPLOYEE_BY_ID';

@@ -1,0 +1,65 @@
+{
+    "errorList": null,
+    "resultObject": [
+    {
+        "id": 1,
+        "projectCode": "Westpac",
+        "projectName": "RL",
+        "projectOwner": "Ken",
+        "projectStartDate": 1525132800000,
+        "projectEndDate": 1527724800000,
+        "projectManagerEmailId": null,
+        "active": true
+    },
+    {
+        "id": 2,
+        "projectCode": "MLPL",
+        "projectName": "LOLA",
+        "projectOwner": "SomeBody",
+        "projectStartDate": 1525132800000,
+        "projectEndDate": 1527724800000,
+        "projectManagerEmailId": null,
+        "active": true
+    },
+    {
+        "id": 3,
+        "projectCode": "AM1234",
+        "projectName": "AM1234",
+        "projectOwner": "Anubhav",
+        "projectStartDate": 1522540800000,
+        "projectEndDate": 1527724800000,
+        "projectManagerEmailId": null,
+        "active": true
+    },
+    {
+        "id": 4,
+        "projectCode": "CN12341",
+        "projectName": "CN12341",
+        "projectOwner": "Leign-Ann",
+        "projectStartDate": 1519862400000,
+        "projectEndDate": 1528588800000,
+        "projectManagerEmailId": null,
+        "active": true
+    },
+    {
+        "id": 5,
+        "projectCode": "CC534231",
+        "projectName": "CC534231",
+        "projectOwner": "Ken Wong",
+        "projectStartDate": 1522886400000,
+        "projectEndDate": 1527724800000,
+        "projectManagerEmailId": null,
+        "active": true
+    },
+    {
+        "id": 6,
+        "projectCode": "PP54243",
+        "projectName": "PP54243",
+        "projectOwner": "Tony",
+        "projectStartDate": 1525132800000,
+        "projectEndDate": 1532995200000,
+        "projectManagerEmailId": null,
+        "active": true
+    }],
+    "success": true
+}

@@ -1,0 +1,39 @@
+//Mixins
+
+@mixin flexCenter(){
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+    justify-content: space-between;
+  align-items: center;
+
+}
+
+@mixin activeCircle($color){
+  margin: 12px 50%;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background-color:$color;
+}
+
+@mixin overLay-progress(){
+  background-color:#CDCDCD;
+  position:relative;
+  border-radius:7px;
+  float:left;
+}
+
+@mixin innerLay-progress(){
+  position:absolute;
+  border-radius:5px;
+}
+
+@mixin linearColor(){
+  background: #45A540; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #45A540 , #49CC42); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #45A540, #49CC42); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #45A540, #49CC42); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #45A540 , #49CC42); /* Standard syntax (must be last) */
+}

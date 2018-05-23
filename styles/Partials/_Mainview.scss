@@ -1,0 +1,85 @@
+.table-container {
+  position:relative;
+  margin-top:5%;
+  background-color: white;
+  border-radius: 4px;
+  border: thin solid $lightGrey;
+  @include flexCenter();
+  .lineBreak {
+    border-top: 1px $wmOrange solid;
+    width: 100%;
+    height:5px;
+  }
+  .table-nav {
+    margin-top: 24px;
+  }
+  .project-title {
+    order: -1;
+    font-size: 1.3em;
+    font-weight:400;
+    color: grey;
+    display: inline-block;
+    position:absolute;
+    left:2%;
+    top:20px;
+    @media #{$mq-xs, $mq-sm}{
+    left:0;
+    top:0;
+    }
+  }
+
+    .btn {
+    justify-content:center;
+    text-align:center;
+    padding:8px;
+    font-size: 16px;
+    font-weight:400;
+    height:40px;
+    border: thin $lightGrey solid;
+    border-radius:5px !important;
+    color:grey;
+    margin: 15px;
+    &:hover, &:active {
+      transition:all 0.2s ease-in-out;
+      background-color:$skyBlue;
+      color:white;
+    }
+  }
+
+  .active {
+    background-color:$skyBlue !important;
+    color:white !important;
+  }
+
+  .btn-group {
+    margin:20px;
+  }
+
+  .btn-newProject {
+    border: none !important;
+    position:absolute;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    right:0;
+    top:0;
+    background-color:#F58408;
+    color:white;
+    height:50px;
+    width:100px;
+    font-size: 16px;
+    font-weight:400;
+    &:hover {
+      background-color:white;
+      padding:5px;
+      border: 1px $lightGrey solid !important;
+      border-radius:5px !important;
+      color:#F58408;
+    }
+    &:active {
+      background-color:#F58408;
+      color:white;
+    }
+  }
+
+}

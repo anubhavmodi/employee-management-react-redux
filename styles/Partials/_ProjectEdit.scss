@@ -1,0 +1,80 @@
+.project-container {
+  position:relative;
+  margin:0 auto;
+  top: 40px;
+  width: 85%;
+  background-color: white;
+  border-radius: 4px;
+  border: thin solid $lightGrey;
+  .steps {
+    float:left;
+    font-size:17px;
+    }
+
+  p {
+    font-size:17px;
+    font-weight:400;
+    color:grey;
+  }
+  .owner-name {
+    color:$skyBlue;
+    font-size:16px;
+  }
+}
+
+.project-detail-header {
+  p:first-child {
+    font-size:20px;
+    font-weight:300;
+    color: grey;
+    padding:10px;
+    border-bottom: 1px solid $wmOrange;
+  }
+}
+
+.editing {
+  background-color:#E2E9F6;
+  border-radius: 2px;
+  border: thin solid $lightGrey;
+  box-shadow: 7px 7px 3px #888888;
+}
+
+.profile-pic {
+  border-radius:7px;
+}
+
+.minus-plus, .left-arrow, .right-arrow {
+  &:hover {
+    opacity: .7;
+    cursor: pointer;
+  }
+}
+
+.left-arrow {
+  position: fixed;
+  top:40%;
+  left:1%;
+}
+
+.right-arrow {
+  position: fixed;
+  top:40%;
+  right:1%;
+}
+
+.overLay-progressBar {
+ @include overLay-progress;
+}
+
+.inner-progressBar {
+  @include linearColor();
+  @include innerLay-progress();
+}
+
+.project-container .inner-progressBar {
+  border: 3px solid white;
+}
+
+.descContent-owner{
+  padding: 8px 0 50px 4%;
+}

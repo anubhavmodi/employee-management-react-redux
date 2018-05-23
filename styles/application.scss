@@ -1,0 +1,16 @@
+// Mixins
+@import './mixins/mixins';
+
+// Modules
+@import './modules/normalize';
+@import './modules/variables';
+
+//Partials
+@import './Partials/Mainview';
+@import './Partials/MainviewDetails';
+@import './Partials/ProjectEdit';
+
+body {
+  background-color:#F4F4F4;
+}
+

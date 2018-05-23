@@ -1,0 +1,120 @@
+{
+    "errorList": null,
+    "resultObject": [
+    {
+        "id": 33,
+        "clientEmpId": "L91111",
+        "vendorEmpId": "999999",
+        "firstName": "ARM",
+        "lastName": "MMM",
+        "employeeAllocationList": [
+        {
+            "id": 33,
+            "projectCode": "MMMM",
+            "projectManager": "MMMM",
+            "empStartDate": 1526479200000,
+            "empEndDate": 1526479200000,
+            "allocationPercentage": 0,
+            "role": null
+        },
+        {
+            "id": 34,
+            "projectCode": "YYYY",
+            "projectManager": "YYYY",
+            "empStartDate": null,
+            "empEndDate": null,
+            "allocationPercentage": 0,
+            "role": null
+        }],
+        "onshore": false,
+        "active": true
+    },
+    {
+        "id": 37,
+        "clientEmpId": "L045644",
+        "vendorEmpId": "523342",
+        "firstName": null,
+        "lastName": null,
+        "employeeAllocationList": [],
+        "onshore": false,
+        "active": true
+    },
+    {
+        "id": 38,
+        "clientEmpId": "L034444",
+        "vendorEmpId": "53535",
+        "firstName": "Test",
+        "lastName": "Test",
+        "employeeAllocationList": [],
+        "onshore": false,
+        "active": true
+    },
+    {
+        "id": 39,
+        "clientEmpId": "L00000",
+        "vendorEmpId": "000000",
+        "firstName": "VIP",
+        "lastName": "VIP",
+        "employeeAllocationList": [],
+        "onshore": false,
+        "active": true
+    },
+    {
+        "id": 66,
+        "clientEmpId": "423342342",
+        "vendorEmpId": "443434",
+        "firstName": "dfdsds",
+        "lastName": "dsdsd",
+        "employeeAllocationList": [],
+        "onshore": false,
+        "active": true
+    },
+    {
+        "id": 35,
+        "clientEmpId": "L063574",
+        "vendorEmpId": "177299",
+        "firstName": "Ashish",
+        "lastName": "Mude",
+        "employeeAllocationList": [
+        {
+            "id": 1,
+            "projectCode": "PP54243",
+            "projectManager": "Kirby B",
+            "empStartDate": 1526479200000,
+            "empEndDate": 1526479200000,
+            "allocationPercentage": 0,
+            "role": null
+        },
+        {
+            "id": 2,
+            "projectCode": "PP54243",
+            "projectManager": "Anubhav",
+            "empStartDate": 1525219200000,
+            "empEndDate": 1525219200000,
+            "allocationPercentage": 0,
+            "role": null
+        }],
+        "onshore": false,
+        "active": true
+    },
+    {
+        "id": 36,
+        "clientEmpId": "L078455",
+        "vendorEmpId": "603853",
+        "firstName": "Anubhav",
+        "lastName": "Modi b",
+        "employeeAllocationList": [
+        {
+            "id": 35,
+            "projectCode": "CN12341",
+            "projectManager": "Ken Wong",
+            "empStartDate": 1525132800000,
+            "empEndDate": 1525132800000,
+            "allocationPercentage": 0,
+            "role": null
+        }],
+        "onshore": false,
+        "active": true
+    }],
+    "success": true
+}

@@ -1,2 +1,16 @@
-# employee-management-react-redux
-Add, delete and update the employee personal and project allocation data 
+Employee Management System
+=====================
+
+• React & Redux
+• Sass
+• Webpack
+
+```
+ $ npm install
+ $ npm start
+ open `localhost:8080`
+
+```
+
+====================
+By Anubhav Modi
